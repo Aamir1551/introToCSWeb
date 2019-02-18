@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Programming</title>
+    <link href="./programming.css" rel="stylesheet" type="text/css">
+    <link href="../basic.css" rel="stylesheet" type="text/css">
+    <link href="../id-title-row.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      <a href="../Hardware/hardware.html">Hardware</a>
+      <a class="active" href="./programming.html">Programming</a>
+      <a href="../OS/os.html">Apps and OS</a>
+    </div>
+    
+    <div class="id-row">
+      <h1 class="page-title">Programming</h1>
+    </div>
+
+    <div class="info">
+      <h1>Programming Languages</h1>
+      <p>On the previous page we discussed the various hardware devices and how they are connected together. However, for a computer to perform a computation it must first be programmed, which is achieved through a programming language. There are different types of languages each with their own niche. However, the most distinctive feature about a language is how deeply it interacts with the hardware of the computer.</p>
+      
+      <p>A low level language (LLL) communicates with the hardware directly. An example of this is assembly which can access specific registers. A use case for a LLL may be to program a device driver which is used to allow a device to communicate with the OS. By using a LLL such as assembly, faster performance can be achieved as no compilation is necessary.</p>
+      
+      <p>On the other hand, a high level language (HLL) abstracts away the complexities of the hardware from the user by using English like keywords to write programs. This makes writing and maintaining software easier. Due to this many real-world applications are written using HLLs. Finally, hardware abstraction isn’t the only feature that separates a language but also the types of paradigms it offers. This is a big topic and is discussed in depth on this <a href=https://en.wikipedia.org/wiki/Programming_paradigm target="_blank"> page.</a></p>
+      
+      <p>Here is an example of a program that counts all the numbers from 1 to n written in two different languages. Notice that the program written in python requires less code compared to the java implementation. This is due to the nature of the language and the type of paradigms they offer.</p>
+      <div>
+        
+        <code class="python-code">
+          n = input("What number do you want to sum to: ") <br>
+          s = 0 <br>
+          for i in range(1,n+1): <br>
+          s+=i <br>
+          print("The sum of all the numbers from <br> 1 to " + str(n) + " is " + str(s)) <br>
+        </code>
+      
+      <br>
+      
+      <code class="java-code">
+        <br> <br> <br>
+        import java.util.Scanner; <br>
+        class Main { <br>
+        public static void main(String[] args) { <br>
+        System.out.println(&#x22;What number do you want to sum to: &#x22;); <br>
+        Scanner reader = new Scanner(System.in);<br>
+        int n = reader.nextInt();<br>
+        reader.close();<br>
+        int i = 1;<br>
+        int s = 0;<br>
+        while (i &#x3C;(n+1)){ <br>
+        s += i; <br>
+        i +=1; <br>
+        } <br>
+        System.out.println(&#x22;The sum of all the numbers from 1 <br> to &#x22; + n + &#x22; is &#x22; + s); <br>
+        } <br>
+        }
+        </code>
+    </div>
+    </div>
+  </body>
+</html>

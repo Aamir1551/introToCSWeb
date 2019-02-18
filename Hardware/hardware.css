@@ -1,0 +1,51 @@
+.info {
+  margin-left: 20px;
+}
+
+
+.internal-hardware-list {
+  
+  color: black;
+  text-decoration: none;
+  width: 140px;
+  
+}
+
+ul.internal-hardware-list li a{
+  color: black;
+  text-decoration: none;
+}
+
+ul.internal-hardware-list li a:hover{
+  text-decoration: underline;
+}
+
+.fe-cycle {
+  padding-left: 30px;
+}
+
+figure {
+  padding-left: 0px;
+  margin: 0;
+}
+
+.hard-drive-img {
+  position: relative;
+  left: 60px;
+}
+
+.ssd-image {
+  position: relative;
+  left: -20px;
+}
+
+.hard-drive-txt {
+  position: relative;
+  left: 60px;
+}
+
+.ssd-txt {
+  position: relative;
+  left: 10px;
+  z-index: 10
+}

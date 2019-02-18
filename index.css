@@ -1,0 +1,56 @@
+.main-title {
+  text-align: left;
+  font-size: 50px ;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding-top: 10px;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-family: "San Francisco";
+  font-weight: 100;
+
+}
+
+.binary-image {
+  background-image: url("https://i0.wp.com/www.larskarlsson.com/wp-content/uploads/2016/08/img_3527.jpg");
+  display: block;
+  background-size: cover;
+  height: 100px;
+  margin-top: 0px;
+
+}
+
+.define-comp {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: "San Francisco";
+}
+
+.intro {
+  padding-top:50px; 
+}
+
+
+.home-footer {
+  position: fixed;
+  bottom: 0;
+  overflow: block;
+  background-color: #0849fa;
+  opacity: 0.9;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+.home-footer p {
+  position: relative;
+  font-size: 15px;
+  bottom: 10px;
+  color: black;
+  
+}

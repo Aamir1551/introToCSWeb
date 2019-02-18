@@ -1,0 +1,17 @@
+.info {
+  margin-left: 20px;
+}
+
+.python-code {
+  
+  position: inherit;
+  color: black;
+  
+}
+
+.java-code {
+  color: black;
+  position: relative;
+  left: 600px;
+  bottom: 225px;
+}

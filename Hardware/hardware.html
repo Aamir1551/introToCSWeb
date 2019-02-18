@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hardware</title>
+    <link href="./hardware.css" rel="stylesheet" type="text/css">
+    <link href="../basic.css" rel="stylesheet" type="text/css">
+    <link href="../id-title-row.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <div class="topnav">
+      <a href="../index.html">Home</a>
+      
+      <a class="active" href="./hardware.html">Hardware</a>
+
+      <a href="../Programming/programming.html">Programming</a>
+      
+      <a href="../OS/os.html">Apps and OS</a>
+      
+    </div>
+    
+    <div class="id-row">
+      <h1 class="page-title">Hardware</h1>
+    </div>
+    
+    <div class = "info">
+    <div>
+        <h1>Hardware and software</h1>
+        <p>
+          Hardware is the physical components of a computer. These are the things you can touch. Software’s are the programs that can be executed on the computer. On this page we will discuss the different types of devices and their role.</p>
+    </div>
+      
+    <div>
+      <h1>Internal Hardware</h1>
+      <p>Internal hardware refers to the devices that are within the computer. These devices are attached to the motherboard and are connected using busses. A bus is a microscopic set of parallel wires that carries electrical signals between devices within the computer. The list of common internal hardware devices are:</p>
+      <ul class="internal-hardware-list">
+        <li><a href="#cpu"> CPU</a></li>
+        <li><a href="#ram">RAM</a></li>
+        <li><a href="#rom">ROM</a></li>
+        <li>Cache</li>
+        <li>Motherboard</li>
+        <li><a href="#drive">SSD/Hard drive</a></li>
+      </ul>
+      
+      <p>External hardware components are components you can touch. This includes the mouse, monitor, keyboard and any other physical component you can directly touch.</p>
+    </div>
+    
+    <div>
+      <a id="cpu"><h1>CPU</h1></a>
+      <p>The CPU is usually referred to as the brain of the computer. The CPU is composed of the ALU, registers, control units and instruction-decoder, and controls the flow of information between these components and the RAM during the <a href="https://teachcomputerscience.com/fetch-execute-cycle/" target="_blank">fetch-execute cycle</a>. Finally, the clock speed is the number of instructions executed per second.</p>
+      
+      <figure>
+      <img src="https://img.purch.com/w/450/aHR0cDovL21lZGlhLmJlc3RvZm1pY3JvLmNvbS9FL1cvNTAwNzkyL29yaWdpbmFsL0Jyb2Fkd2VsbC1DUFUuanBn" height=100px width=100px>
+        <figcaption>Intel i7 CPU <br> Source: <a href="https://www.businesswire.com/news/home/20150602005784/en/Intel-Leads-New-Era-Computing-Experiences-Intelligence" target="_blank"> businesswire</a></figcaption>
+      </figure>
+    </div>
+    
+
+      <h1>Storage Devices</h1>
+      <p>There are different storage devices within the computer each having a different purpose. What differentiates each storage device is its access speed and volatility. A storage device that is volatile loses its contents when power is turned off, whereas non-volatile devices don’t. Devices that provide very fast access speeds are typically used for cache and devices that are volatile, cheaper but provide relatively fast access speeds are used for the RAM. Non-volatile devices are used as secondary storage. We will now discuss each of these devices in detail.</p>
+
+    <div>
+      <a id="ram"><h1>RAM &amp; Cache</h1></a>
+      <p>RAM is a type of memory, where each cell can be accessed using a specified address. RAM needs to be accessed frequently by the CPU therefore it is positioned closer to the CPU to allow faster access speeds. There are two different types of RAM, DRAM and SRAM. DRAM is used to store data temporarily that the CPU will be using while the SRAM is used for cache memory. DRAM needs to be refreshed continuously while in operation whereas SRAM does not. This is because DRAM uses capacitors to store charge which has a natural tendency to discharge. SRAM, however stores data as transistors providing faster access speeds with the price of higher costs.</p>
+      <figure>
+        <img src="https://previews.123rf.com/images/automatic9751/automatic97511602/automatic9751160200003/53838983-computer-random-access-memory-ram-chips-isolated-on-white-background-.jpg" height="100px" width="100px">
+        <figcaption>A typical RAM chip <br>Source: <a href="https://resources.altium.com/pcb-design-blog/how-to-reduce-power-consumption-in-embedded-systems-with-deep-sleep-sram" target="_blank">Altium</a></figcaption>
+      </figure>
+    </div>
+    
+    <div>
+      <a id="rom"><h1>ROM</h1></a>
+      <p>ROM is read-only memory and therefore cannot be written to. The contents of ROM are what the processor first reads when the computer is switched on. The basic operations of the ROM include a hardware check-up, transferring data from the secondary storage to the RAM and loading the OS.</p>
+    </div>
+    
+    <div>
+      <a id="drive"><h1>SSD and Hard drive (HDD)</h1></a>
+      <p>HDDs and SSDs are both non-volatile memory and are referred to as secondary storage. HDDs store data magnetically allowing it to store data after the power has turned off. HDDs being mechanical have slower access speeds compared to RAM, thus a different technology is used in place of RAM.</p>
+      
+      <figure style="float:left">
+        <img class="ssd-image" src="https://www.transcend-info.com/dist/images/event/ssd/ssd-chip.png" height="150px" width="150px">
+        <figcaption class="ssd-txt">Inside an SSD <br> Source: <a href="https://www.kisspng.com/png-ram-flash-memory-solid-state-drive-hard-drives-tv-3610214/" target="_blank">Kisspng</a> </figcaption>
+      </figure>
+      
+      <figure><img class="hard-drive-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/1200px-Laptop-hard-drive-exposed.jpg" height="150px" width="150px"><figcaption class="hard-drive-txt">A typical hard drive <br> Source: <a href="https://www.lifewire.com/what-is-a-hard-disk-drive-2618152" target="_blank">lifewire</a></figcaption></figure>
+      
+    </div>
+    
+    <div>
+      <div>
+        <h1>Supercomputers &amp; Mainframes</h1>
+        <p>Supercomputers are computers capable of performing fast computation on data. These computations cannot often be parallelised as the second operation depends upon the first. Therefore these operations are performed in a serial manner. Mainframes however, deal with a very different problem. Mainframes are used to process thousands of independent queries simultaneously that require less computation, and used as large servers in big organisations. </p>
+      </div>
+      
+      <p>For more information on hardware, click <a href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo" target="_blank">here</a></p>
+    </div>
+    
+    </div>
+  </body>
+</html>

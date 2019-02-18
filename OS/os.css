@@ -1,0 +1,27 @@
+.info {
+  margin-left: 20px;
+}
+
+#macos-img {
+  position: relative;
+  top: -1px;
+  right: -10px;
+  z-index: 10;
+}
+
+#linuxos-img {
+  position: relative;
+  top: 16px;
+  right: -50px;
+  float: none;
+
+}
+
+#w-img {
+  position: relative;
+  z-index: 10;
+}
+
+figure {
+  float: left;
+}
